@@ -1,0 +1,11 @@
+CPAN_AUTHOR=abh
+inherit perl
+
+NAME="perl-Mozilla-CA"
+VERSION=20130114
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl CA certificate module"
+DESCRIPTION="Mozilla::CA provides a copy of Mozilla's bundle of Certificate
+Authority certificates in a form that can be consumed by Perl modules and
+libraries based on OpenSSL."
