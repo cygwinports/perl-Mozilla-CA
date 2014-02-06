@@ -12,4 +12,6 @@ libraries based on OpenSSL."
 
 PATCH_URI="http://pkgs.fedoraproject.org/cgit/perl-Mozilla-CA.git/plain/Mozilla-CA-20130114-Redirect-to-ca-certificates-bundle.patch"
 
+DISTCLEANFILES="mk-ca-bundle.pl"
+
 REQUIRES="ca-certificates"
